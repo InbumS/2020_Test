@@ -1,0 +1,13 @@
+def palindrome(n):
+    if (len(n)<2):
+        return True
+    else:
+        return((n[0]==n[len(n)-1])and palindrome(n[1:len(n)-1]))
+
+
+
+word=input()
+if palindrome(word):
+    print("yes")
+else:
+    print("no")
