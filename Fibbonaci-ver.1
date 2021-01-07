@@ -1,0 +1,12 @@
+def pibo(n):
+ p=[0,1]
+ for i in range(2,n):
+     p.append(p[-1]+p[-2])
+ print(p)
+ return(p[-1])
+
+
+
+
+n=int(input("몇 번째 항까지 구할까요?"))
+print(pibo(n))
