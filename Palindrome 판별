@@ -11,3 +11,4 @@ if palindrome(word):
     print("yes")
 else:
     print("no")
+\
