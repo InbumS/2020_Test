@@ -1,0 +1,14 @@
+src=input('src=')
+
+form=[]
+
+count=0
+
+for i in range(0,len(src),2):
+    form.append(src[i])
+    count=int(src[i+1])
+    n=0
+    while n<(count-1):
+        form.append(src[i])
+        n+=1
+print(''.join(form))
